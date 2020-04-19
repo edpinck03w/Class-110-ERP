@@ -1,0 +1,102 @@
+@{
+    ViewData["Title"] = "Register A New Car";
+}
+
+
+
+@*
+    make
+    model
+    year
+    color
+    price
+    mileage
+    condition (new / used)
+    image
+    seats
+    MPG
+
+*@
+
+<div class="col-md-6 offset-md-3">
+
+<form>
+
+    <h3>Register New Car</h3>
+
+
+  <div class="form-group row">
+    <label for="textMake" class="col-5 col-form-label">Make</label> 
+    <div class="col-7">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <i class="fa fa-address-card"></i>
+          </div>
+        </div> 
+        <input id="textMake" name="textMake" placeholder="Enter Car Make" type="text" class="form-control">
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="textModel" class="col-5 col-form-label">Model</label> 
+    <div class="col-7">
+      <input id="textModel" name="textModel" placeholder="Enter Car Model" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="textYear" class="col-5 col-form-label">Year</label> 
+    <div class="col-7">
+      <input id="textYear" name="textYear" placeholder="Enter Year" type="number" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="textColor" class="col-5 col-form-label">Color</label> 
+    <div class="col-7">
+      <input id="textColor" name="textColor" placeholder="Describe Color" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="textModel" class="col-5 col-form-label">Price</label> 
+    <div class="col-7">
+      <input id="textModel" name="textModel" placeholder="Enter Vehicle Price" type="number" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="textMileage" class="col-5 col-form-label">Mileage</label> 
+    <div class="col-7">
+      <input id="textMileage" name="textMileage" placeholder="Enter Mileage" type="number" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="selectCondition" class="col-5 col-form-label">Condition</label> 
+    <div class="col-7">
+      <select id="selectCondition" name="selectCondition" class="custom-select">
+        <option value="Select">-- Select Condition --</option>
+        <option value="new">New</option>
+        <option value="used">Used</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="textSeats" class="col-5 col-form-label">Seats</label> 
+    <div class="col-7">
+      <input id="textSeats" name="textSeats" placeholder="Number of Seats" type="number" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="textMPG" class="col-5 col-form-label">Miles Per Gallon</label> 
+    <div class="col-7">
+      <input id="textMPG" name="textMPG" placeholder="Enter MPG" type="number" class="form-control">
+    </div>
+  </div> 
+  <div class="form-group row">
+    <div class="offset-5 col-7">
+      <button name="submit" type="submit" class="btn btn-primary">
+          <i class="fa fa-save"></i>
+          Register Car
+          </button>
+    </div>
+  </div>
+</form>
+</div>

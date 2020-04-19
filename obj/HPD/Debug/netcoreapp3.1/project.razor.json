@@ -20531,6 +20531,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\pinck03w\\Desktop\\index.html\\110\\ERP\\Views\\Catalog\\Register.cshtml",
+      "TargetPath": "Views\\Catalog\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pinck03w\\Desktop\\index.html\\110\\ERP\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -20546,6 +20551,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\pinck03w\\Desktop\\index.html\\110\\ERP\\Views\\Catalog\\Index.cshtml",
+      "TargetPath": "Views\\Catalog\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pinck03w\\Desktop\\index.html\\110\\ERP\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -20553,6 +20563,11 @@
     {
       "FilePath": "c:\\Users\\pinck03w\\Desktop\\index.html\\110\\ERP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pinck03w\\Desktop\\index.html\\110\\ERP\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"
     },
     {

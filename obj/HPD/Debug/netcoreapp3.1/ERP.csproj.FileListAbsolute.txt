@@ -36,3 +36,6 @@ C:\Users\pinck03w\Desktop\index.html\110\ERP\obj\HPD\Debug\netcoreapp3.1\ERP.pdb
 C:\Users\pinck03w\Desktop\index.html\110\ERP\obj\HPD\Debug\netcoreapp3.1\ERP.genruntimeconfig.cache
 C:\Users\pinck03w\Desktop\index.html\110\ERP\obj\HPD\Debug\netcoreapp3.1\ERP.csproj.CopyComplete
 C:\Users\pinck03w\Desktop\index.html\110\ERP\obj\HPD\Debug\netcoreapp3.1\Razor\Views\Message\SayHello.cshtml.g.cs
+C:\Users\pinck03w\Desktop\index.html\110\ERP\obj\HPD\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\pinck03w\Desktop\index.html\110\ERP\obj\HPD\Debug\netcoreapp3.1\Razor\Views\Catalog\Index.cshtml.g.cs
+C:\Users\pinck03w\Desktop\index.html\110\ERP\obj\HPD\Debug\netcoreapp3.1\Razor\Views\Catalog\Register.cshtml.g.cs
