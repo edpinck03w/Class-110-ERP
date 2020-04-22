@@ -59,7 +59,7 @@
   <div class="form-group row">
     <label for="textModel" class="col-5 col-form-label">Price</label> 
     <div class="col-7">
-      <input id="textModel" name="textModel" placeholder="Enter Vehicle Price" type="number" class="form-control">
+      <input id="textPrice" name="textPrice" placeholder="Enter Vehicle Price" type="number" class="form-control">
     </div>
   </div>
   <div class="form-group row">
@@ -90,9 +90,15 @@
       <input id="textMPG" name="textMPG" placeholder="Enter MPG" type="number" class="form-control">
     </div>
   </div> 
+   <div class="form-group row">
+    <label for="textSeats" class="col-5 col-form-label">Image</label> 
+    <div class="col-7">
+      <input id="textImage" name="textImage" placeholder="Enter Image" type="text" class="form-control">
+    </div>
+  </div>
   <div class="form-group row">
     <div class="offset-5 col-7">
-      <button name="submit" type="submit" class="btn btn-primary">
+      <button id="btnSave" name="submit" type="button" class="btn btn-primary">
           <i class="fa fa-save"></i>
           Register Car
           </button>
@@ -100,3 +106,7 @@
   </div>
 </form>
 </div>
+
+@section Scripts {
+  <script src="/js/register.js"></script>
+}
