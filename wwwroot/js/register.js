@@ -11,6 +11,18 @@ function Car(make, model, year, color, price, mileage, mpg, image, seats, condit
     this.condition = condition;
 }
 
+function clearForm(){
+    $("#textMake").val("");
+    $("#textModel").val("");
+    $("#textYear").val("");
+    $("#textColor").val("");
+    $("#textPrice").val("");
+    $("#textMileage").val("");
+    $("#textMPG").val("");
+    $("#textSeats").val("");
+    $("#selectCondition").val("");
+    $("#textImage").val("");
+}
 
 function registerCar(){
     //get variables
@@ -62,6 +74,7 @@ function registerCar(){
         data: JSON.stringify(car),
         success: function(res){
             console.log("Server responded", res);
+            clearForm();    
         },
         error: function(detail){
             console.log("Error on request", detail);
