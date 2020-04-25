@@ -15,16 +15,18 @@
     image
     seats
     MPG
-
+    <div class="col-md-6 offset-md-3">
 *@
+<div class="card text-center col-8 offset-md-3 border-secondary rounded">
 
-<div class="col-md-6 offset-md-3">
+
+
+    <div class="card-header">
+    <h3>Register New Car</h3>
+    </div>
 
 <form>
-
-    <h3>Register New Car</h3>
-
-
+  <div class="card-body">
   <div class="form-group row">
     <label for="textMake" class="col-5 col-form-label">Make</label> 
     <div class="col-7">
@@ -73,8 +75,8 @@
     <div class="col-7">
       <select id="selectCondition" name="selectCondition" class="custom-select">
         <option value="Select">-- Select Condition --</option>
-        <option value="new">New</option>
-        <option value="used">Used</option>
+        <option value="New">New</option>
+        <option value="Used">Used</option>
       </select>
     </div>
   </div>
@@ -96,15 +98,19 @@
       <input id="textImage" name="textImage" placeholder="Enter Image" type="text" class="form-control">
     </div>
   </div>
+  </div>
+  <div class="card-footer text-muted text-center">
   <div class="form-group row">
     <div class="offset-5 col-7">
-      <button id="btnSave" name="submit" type="button" class="btn btn-primary">
+      <button id="btnSave" name="submit" type="button" class="btn btn-primary btn-lg btn-block" aria-pressed="true">
           <i class="fa fa-save"></i>
           Register Car
           </button>
     </div>
   </div>
+  </div>
 </form>
+
 </div>
 
 @section Scripts {

@@ -11,7 +11,7 @@ function retrieveCatalog(){
             for(let i=0; i < res.length; i++){
                 displayCar(res[i]);
             }
-            clearForm(); 
+            
         },
         error: function(detail){
             console.log("Error on request", detail);
@@ -29,24 +29,39 @@ function displayCar(car){
     //crete template/syntax
     var sntx = 
     `<div class='item'>
-        <img src="${car.image}">
-        <h4>${car.make}</h4>
+    <div class="card text-center ">
+    <div class="card-header">
+      Available For Purchase
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Vehicle Condition Description:</h5>
+      <span class="border border-light size"><img src="${car.image}" class="rounded"></span>
+        <h4>${car.year}  ${car.make}  ${car.model}</h4>
         <h4>$ ${car.price}</h4>
-        <h5>Vehicle Condition Description:</h5>
-        <h5>Enjoy a limited time offer in this ${car.year} ${car.color} ${car.model}. This vehicle has a miles per gallon range of ${car.mpg} in suburban areas with a milegae of ${car.mileage}. With the ability to seat up to ${car.seats} passengers comfortably.The current condition is ${car.condition}</h5>
-               
+        <h5></h5>
+        <hr>
+        <p class="card-text text-wrap">Enjoy a limited time offer in this ${car.year} ${car.color} ${car.make} ${car.model}. This vehicle has a ${car.mpg} miles per gallon range in city and suburban areas with a current odometer mileage reading of ${car.mileage} miles. Current interior storage capacity allows this ${car.make} ${car.model} the ability to seat up to ${car.seats} passengers comfortably. And the current condition is rated as ${car.condition} by our certified inspectors.</p>
+        <hr>
+        <h5></h5>
+        </div>
+        <div class="card-footer text-muted">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Select Listed Vehicle</button>  
+        </div>
+    </div>
+    
     </div>`;
     
-    /*
-    `<div class="item" id="${product.code}">
-    <img src="${product.image}">
-    <h4 class="item-title">${product.title}</h4>
-    <h6 class="item-price">${product.price}</h6>
-    <p> ${product.description}</p>
-    <div class="button-div">
-        <button class="btn btn-primary mb-2">Add to the Cart</button>
-    </div>
-</div>`*/
+
+    
+    
+    
+      
+      
+    
+    
+      
+    
+  
 
     //add template to container
     container.append(sntx);
